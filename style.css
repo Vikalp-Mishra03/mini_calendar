@@ -25,6 +25,7 @@
 
 .left,
 .right {
+    flex-direction: column;
     /* width: 50%; */
     height: 100%;
     display: flex;
@@ -43,4 +44,9 @@
 
 .left {
     width: 58%;
+}
+
+#date{
+    font-size: 100px;
+    line-height: 90px;
 }
